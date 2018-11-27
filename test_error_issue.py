@@ -30,7 +30,6 @@ print("Point event generated")
 
 arcpy.CopyFeatures_management(out_layer, save_points)
 
-
 #arcpy.SaveToLayerFile_management(out_layer, save_layer)
 
 #arcpy.FeatureToPoint_management(out_layer, save_points)
